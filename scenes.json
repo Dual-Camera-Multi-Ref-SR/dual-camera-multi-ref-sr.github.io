@@ -1,0 +1,399 @@
+{
+  "demo": false,
+  "alignmentNotice": "Corresponding details are aligned locally; motion and framing differences may remain.",
+  "showcaseScenes": [
+    "pixel10pro-001",
+    "mate60-mountain",
+    "s23ultra-msu"
+  ],
+  "comparisonScenes": [
+    "s23ultra-001",
+    "pura70-039",
+    "mate50-005",
+    "mate60proplus-006"
+  ],
+  "scenes": [
+    {
+      "id": "pixel10pro-001",
+      "name": "Cityscape",
+      "phone": "Google Pixel 10 Pro",
+      "sourceId": "Pixel10Pro_001",
+      "width": 15360,
+      "height": 20400,
+      "referenceCount": 36,
+      "crops": [],
+      "thumbnail": "/assets/real/pixel10pro-001/thumbnail.jpg",
+      "images": {
+        "anchor": {
+          "label": "LR anchor",
+          "tileSource": "/assets/real/pixel10pro-001/anchor.dzi",
+          "width": 3072,
+          "height": 4080,
+          "mapping": {}
+        },
+        "ours": {
+          "label": "Ours",
+          "tileSource": "/assets/real/pixel10pro-001/ours.dzi",
+          "width": 15360,
+          "height": 20400,
+          "mapping": {}
+        }
+      },
+      "reconstructionScale": 5,
+      "initialView": {
+        "x": 0.642545,
+        "y": 0.310844,
+        "width": 0.14
+      },
+      "initialViewMobile": {
+        "width": 0.06060606060606061
+      }
+    },
+    {
+      "id": "mate60-mountain",
+      "name": "Mountain panorama",
+      "phone": "Huawei Mate 60 Pro+",
+      "sourceId": "Mate60_068 (teaser)",
+      "width": 14000,
+      "height": 10500,
+      "reconstructionScale": 3.5,
+      "referenceCount": 16,
+      "initialView": {
+        "x": 0.5,
+        "y": 0.5,
+        "width": 0.14
+      },
+      "initialViewMobile": {
+        "width": 0.06060606060606061
+      },
+      "crops": [],
+      "thumbnail": "/assets/real/mate60-mountain/thumbnail.jpg",
+      "images": {
+        "anchor": {
+          "label": "LR anchor",
+          "tileSource": "/assets/real/mate60-mountain/anchor.dzi",
+          "width": 4000,
+          "height": 3000,
+          "mapping": {}
+        },
+        "ours": {
+          "label": "Ours",
+          "tileSource": "/assets/real/mate60-mountain/ours.dzi",
+          "width": 14000,
+          "height": 10500,
+          "mapping": {}
+        }
+      }
+    },
+    {
+      "id": "s23ultra-001",
+      "name": "Courtyard",
+      "phone": "Samsung Galaxy S23 Ultra",
+      "sourceId": "S23Ultra_001",
+      "width": 8992,
+      "height": 12000,
+      "referenceCount": 16,
+      "crops": [
+        {
+          "label": "Statue",
+          "x": 0.52067,
+          "y": 0.34539,
+          "width": 0.09
+        },
+        {
+          "label": "Gate text",
+          "x": 0.641,
+          "y": 0.792,
+          "width": 0.09
+        },
+        {
+          "label": "Facade",
+          "x": 0.75,
+          "y": 0.335,
+          "width": 0.12
+        }
+      ],
+      "thumbnail": "/assets/real/s23ultra-001/thumbnail.jpg",
+      "images": {
+        "anchor": {
+          "label": "LR anchor",
+          "tileSource": "/assets/real/s23ultra-001/anchor.dzi",
+          "width": 3000,
+          "height": 4000,
+          "mapping": {}
+        },
+        "ours": {
+          "label": "Ours",
+          "tileSource": "/assets/real/s23ultra-001/ours.dzi",
+          "width": 8992,
+          "height": 12000,
+          "mapping": {}
+        },
+        "hypir": {
+          "label": "HYPIR",
+          "tileSource": "/assets/real/s23ultra-001/hypir.dzi",
+          "width": 8992,
+          "height": 12000,
+          "mapping": {}
+        },
+        "kedusr": {
+          "label": "KeDuSR",
+          "tileSource": "/assets/real/s23ultra-001/kedusr.dzi",
+          "width": 8992,
+          "height": 12000,
+          "mapping": {}
+        },
+        "200mp": {
+          "label": "200 MP",
+          "tileSource": "/assets/real/s23ultra-001/200mp.dzi",
+          "width": 12240,
+          "height": 16320,
+          "mappingUrl": "/assets/real/s23ultra-001/200mp-flow.json"
+        },
+        "photomerge": {
+          "label": "Photomerge",
+          "tileSource": "/assets/real/s23ultra-001/photomerge.dzi",
+          "width": 7321,
+          "height": 9761,
+          "mappingUrl": "/assets/real/s23ultra-001/photomerge-flow.json"
+        }
+      },
+      "reconstructionScale": 3
+    },
+    {
+      "id": "pura70-039",
+      "name": "Produce shop",
+      "phone": "Huawei Pura 70",
+      "sourceId": "Pura70_039",
+      "width": 14336,
+      "height": 10752,
+      "referenceCount": 16,
+      "crops": [
+        {
+          "label": "Label",
+          "x": 0.45215,
+          "y": 0.70208,
+          "width": 0.06
+        },
+        {
+          "label": "Fruit",
+          "x": 0.36271,
+          "y": 0.76862,
+          "width": 0.09
+        }
+      ],
+      "thumbnail": "/assets/real/pura70-039/thumbnail.jpg",
+      "images": {
+        "anchor": {
+          "label": "LR anchor",
+          "tileSource": "/assets/real/pura70-039/anchor.dzi",
+          "width": 4096,
+          "height": 3072,
+          "mapping": {}
+        },
+        "ours": {
+          "label": "Ours",
+          "tileSource": "/assets/real/pura70-039/ours.dzi",
+          "width": 14336,
+          "height": 10752,
+          "mapping": {}
+        },
+        "hypir": {
+          "label": "HYPIR",
+          "tileSource": "/assets/real/pura70-039/hypir.dzi",
+          "width": 14336,
+          "height": 10752,
+          "mapping": {}
+        },
+        "kedusr": {
+          "label": "KeDuSR",
+          "tileSource": "/assets/real/pura70-039/kedusr.dzi",
+          "width": 14336,
+          "height": 10752,
+          "mapping": {}
+        },
+        "200mp": {
+          "label": "200 MP",
+          "available": false,
+          "unavailableReason": "Not supplied for this scene"
+        },
+        "photomerge": {
+          "label": "Photomerge",
+          "tileSource": "/assets/real/pura70-039/photomerge.dzi",
+          "width": 12313,
+          "height": 9235,
+          "mappingUrl": "/assets/real/pura70-039/photomerge-flow.json"
+        }
+      },
+      "reconstructionScale": 3.5
+    },
+    {
+      "id": "mate50-005",
+      "name": "Garden portrait",
+      "phone": "Huawei Mate 50",
+      "sourceId": "Mate50_005",
+      "width": 14336,
+      "height": 10752,
+      "referenceCount": 16,
+      "crops": [
+        {
+          "label": "Stitching",
+          "x": 0.11087,
+          "y": 0.2217,
+          "width": 0.16
+        },
+        {
+          "label": "Face",
+          "x": 0.56222,
+          "y": 0.39004,
+          "width": 0.15
+        }
+      ],
+      "thumbnail": "/assets/real/mate50-005/thumbnail.jpg",
+      "images": {
+        "anchor": {
+          "label": "LR anchor",
+          "tileSource": "/assets/real/mate50-005/anchor.dzi",
+          "width": 4096,
+          "height": 3072,
+          "mapping": {}
+        },
+        "ours": {
+          "label": "Ours",
+          "tileSource": "/assets/real/mate50-005/ours.dzi",
+          "width": 14336,
+          "height": 10752,
+          "mapping": {}
+        },
+        "hypir": {
+          "label": "HYPIR",
+          "tileSource": "/assets/real/mate50-005/hypir.dzi",
+          "width": 14336,
+          "height": 10752,
+          "mapping": {}
+        },
+        "kedusr": {
+          "label": "KeDuSR",
+          "tileSource": "/assets/real/mate50-005/kedusr.dzi",
+          "width": 14336,
+          "height": 10752,
+          "mapping": {}
+        },
+        "200mp": {
+          "label": "200 MP",
+          "available": false,
+          "unavailableReason": "Not supplied for this scene"
+        },
+        "photomerge": {
+          "label": "Photomerge",
+          "tileSource": "/assets/real/mate50-005/photomerge.dzi",
+          "width": 14380,
+          "height": 10784,
+          "mappingUrl": "/assets/real/mate50-005/photomerge-flow.json"
+        }
+      },
+      "reconstructionScale": 3.5
+    },
+    {
+      "id": "s23ultra-msu",
+      "name": "University",
+      "phone": "Samsung Galaxy S23 Ultra",
+      "sourceId": "S23Ultra_MSU",
+      "width": 9000,
+      "height": 12000,
+      "reconstructionScale": 3,
+      "initialView": {
+        "x": 0.412652,
+        "y": 0.383185,
+        "width": 0.14
+      },
+      "initialViewMobile": {
+        "width": 0.14
+      },
+      "crops": [],
+      "thumbnail": "/assets/real/s23ultra-msu/thumbnail.jpg",
+      "images": {
+        "anchor": {
+          "label": "LR anchor",
+          "tileSource": "/assets/real/s23ultra-msu/anchor.dzi",
+          "width": 3000,
+          "height": 4000,
+          "mapping": {}
+        },
+        "ours": {
+          "label": "Ours",
+          "tileSource": "/assets/real/s23ultra-msu/ours.dzi",
+          "width": 9000,
+          "height": 12000,
+          "mapping": {}
+        }
+      }
+    },
+    {
+      "id": "mate60proplus-006",
+      "name": "Hillside",
+      "phone": "Huawei Mate 60 Pro+",
+      "sourceId": "Mate60Pro+_006_anchor_001",
+      "width": 14000,
+      "height": 10500,
+      "reconstructionScale": 3.5,
+      "crops": [
+        {
+          "label": "Exposure",
+          "x": 0.25086,
+          "y": 0.46476,
+          "width": 0.18
+        },
+        {
+          "label": "Skyline",
+          "x": 0.52,
+          "y": 0.37,
+          "width": 0.17
+        }
+      ],
+      "thumbnail": "/assets/real/mate60proplus-006/thumbnail.jpg",
+      "images": {
+        "anchor": {
+          "label": "LR anchor",
+          "tileSource": "/assets/real/mate60proplus-006/anchor.dzi",
+          "width": 4000,
+          "height": 3000,
+          "mapping": {}
+        },
+        "ours": {
+          "label": "Ours",
+          "tileSource": "/assets/real/mate60proplus-006/ours.dzi",
+          "width": 14000,
+          "height": 10500,
+          "mapping": {}
+        },
+        "hypir": {
+          "label": "HYPIR",
+          "tileSource": "/assets/real/mate60proplus-006/hypir.dzi",
+          "width": 14000,
+          "height": 10500,
+          "mapping": {}
+        },
+        "kedusr": {
+          "label": "KeDuSR",
+          "tileSource": "/assets/real/mate60proplus-006/kedusr.dzi",
+          "width": 14000,
+          "height": 10500,
+          "mapping": {}
+        },
+        "photomerge": {
+          "label": "Photomerge",
+          "tileSource": "/assets/real/mate60proplus-006/photomerge.dzi",
+          "width": 13962,
+          "height": 10472,
+          "mappingUrl": "/assets/real/mate60proplus-006/photomerge-flow.json"
+        },
+        "200mp": {
+          "label": "200 MP",
+          "available": false,
+          "unavailableReason": "Not supplied for this scene"
+        }
+      }
+    }
+  ]
+}
